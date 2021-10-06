@@ -35,7 +35,7 @@ if [[ "$whoami" = "root" ]]; then
         make
         chmod a+x .
 
-    mv ./BashCusomiser /bin/bashcustomiser
+    mv ./BashCustomiser /bin/bashcustomiser
     printf "\nWrite\nbashcustomiser\n for run program\n\n"
 else
     printf "\033[0;31mCritical error\033[0m: $whoami user cannot install the BashCusomiser. \nLaunch the installer on behalf on the super-user\n\n"
