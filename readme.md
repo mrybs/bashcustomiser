@@ -1,6 +1,6 @@
-BashCustomiser guide
+Bash customiser guide
 
-This application will help you to easily customize the appearance of the
+This application will help you to easily customise the appearance of the
 bash program. From the possibilities:
 
 1)There are 15 colors for the line before entering the command and
