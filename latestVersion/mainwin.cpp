@@ -136,7 +136,7 @@ void MainWin::on_clearBtn_clicked(){/*clearing all*/
 }
 
 void MainWin::on_apply_clicked(){//write all changes
-    string PS1 = ui->seqTE->toPlainText().toStdString() + "" + colors[ui->defColCB->currentIndex()].toStdString();
+    string PS1 = ui->seqTE->toPlainText().toStdString() + "\\[\\e[" + colors[ui->defColCB->currentIndex()].toStdString() + "m\\]";
     try {
         string bashrcpath = "/home/" + USERNAME + "/.bashrc";//bashrc file
 
