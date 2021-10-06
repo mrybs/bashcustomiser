@@ -1,6 +1,6 @@
-BashCustomiser guide
+Bash customiser guide
 
-This application will help you to easily customize the appearance of the
+This application will help you to easily customise the appearance of the
 bash program. From the possibilities:
 
 1)There are 15 colors for the line before entering the command and
@@ -41,7 +41,7 @@ How to compile?
     running Qt applications. For example, I use KDE. Open the official
     website(http://kde.org/#kPatrons) and see that it supports Qt
     Then, install qt5, qt5 compiler, zip and git. Download repository and
-    unpack archive in it. Compile file and run:
+    enter in repository's path. Compile file and run:
 
         $ cd latestVersion
         $ sudo sh install.sh
