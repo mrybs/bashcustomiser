@@ -41,7 +41,7 @@ How to compile?
     running Qt applications. For example, I use KDE. Open the official
     website(http://kde.org/#kPatrons) and see that it supports Qt
     Then, install qt5, qt5 compiler, zip and git. Download repository and
-    unpack archive in it. Compile file and run:
+    enter in repository's path. Compile file and run:
 
         $ cd latestVersion
         $ sudo sh install.sh
