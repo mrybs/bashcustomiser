@@ -23,18 +23,14 @@ whoami="$(whoami)"
 if [[ "$whoami" = "root" ]]; then
     #pacman (arch)
         pacman -Sy
-        pacman -S qt make git zip unzip
-        unzip BashCustomisersV101.zip
-        cd BashCustomisersV101
+        pacman -S qt make
         qmake BashCustomiser.pro
         make
         chmod a+x .
 
     #apt-get (debian)
         apt-get update -y
-        apt-get install qt5-default build-essential git zip unzip
-        unzip BashCustomisersV101.zip
-        cd BashCustomisersV101
+        apt-get install qt5-default build-essential
         qmake BashCustomiser.pro
         make
         chmod a+x .
